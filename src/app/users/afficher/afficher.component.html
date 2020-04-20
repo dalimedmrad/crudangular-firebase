@@ -1,0 +1,18 @@
+<div class="col-md-6">
+<table class="table table-striped">
+    <tr>
+        <td>nom</td>
+        <td>{{user.nom}}</td>
+    </tr>
+    <tr>
+        <td>prenom</td>
+        <td>{{user.prenom}}</td>
+    </tr>
+    <tr>
+        <td>email</td>
+        <td>{{user.email}}</td>
+    </tr>
+</table>
+<button mat-raised-button class="button" color="warn" type="reset"
+                [routerLink]="['/users']" routerLinkActive="router-link-active">Retour</button>
+</div>
